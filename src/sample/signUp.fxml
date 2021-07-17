@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #0a627f;" xmlns="http://javafx.com/javafx/1.8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUpController">
+    <children>
+        <AnchorPane layoutY="97.0" prefHeight="303.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="signUpLastName" layoutX="459.0" layoutY="23.0" prefHeight="0.0" prefWidth="218.0" promptText="Фамилия">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </TextField>
+                <Button fx:id="signUpButton" layoutX="260.0" layoutY="254.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="181.0" style="-fx-background-color: #F39C63;" text="Войти" textFill="WHITE">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Button>
+                <PasswordField fx:id="password_field" layoutX="459.0" layoutY="65.0" prefHeight="26.0" prefWidth="218.0" promptText="Password">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </PasswordField>
+            <TextField fx:id="signUpName" layoutX="6.0" layoutY="23.0" prefHeight="0.0" prefWidth="218.0" promptText="Имя">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="login_field2" layoutX="6.0" layoutY="65.0" prefHeight="35.0" prefWidth="218.0" promptText="Login">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="signUpCountry" layoutX="242.0" layoutY="208.0" prefHeight="0.0" prefWidth="218.0" promptText="Страна">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </TextField>
+            <CheckBox fx:id="signUpCheckboxMale" layoutX="242.0" layoutY="143.0" mnemonicParsing="false" selected="true" text="Мужчина" />
+            <CheckBox fx:id="signUpCheckboxFemale" layoutX="401.0" layoutY="143.0" mnemonicParsing="false" text="Женщина" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="226.0" layoutY="11.0" text="Sakurai-exe" textFill="WHITE">
+            <font>
+                <Font name="AppleGothic Regular" size="46.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
